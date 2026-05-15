@@ -74,6 +74,7 @@ export function Hero() {
           <span className="hero__float-icon">✨</span>
           <p>
             <strong>Atención personalizada</strong>
+            <br />
             <small>Te asesoramos con cariño</small>
           </p>
         </div>

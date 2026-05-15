@@ -3,6 +3,7 @@ import {
   Categories,
   Contact,
   Hero,
+  Locations,
   PromoStrip,
 } from '../components/home'
 
@@ -13,6 +14,7 @@ export function HomePage() {
       <PromoStrip />
       <Categories />
       <About />
+      <Locations />
       <Contact />
     </main>
   )

@@ -11,6 +11,7 @@ const NAV_HOME = [
   { to: homeSectionPath('inicio'), label: 'Inicio', end: true },
   { to: homeSectionPath('categorias'), label: 'Categorías' },
   { to: homeSectionPath('nosotros'), label: 'Nosotros' },
+  { to: homeSectionPath('locales'), label: 'Locales' },
   { to: homeSectionPath('contacto'), label: 'Contacto' },
 ] as const
 

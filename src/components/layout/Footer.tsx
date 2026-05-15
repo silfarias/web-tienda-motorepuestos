@@ -21,6 +21,7 @@ export function Footer() {
           <Link to={PATHS.cart}>Carrito</Link>
           <Link to={PATHS.orders}>Mis pedidos</Link>
           <Link to={homeSectionPath('nosotros')}>Nosotros</Link>
+          <Link to={homeSectionPath('locales')}>Locales</Link>
           <Link to={homeSectionPath('contacto')}>Contacto</Link>
         </nav>
         <p className="footer__copy">

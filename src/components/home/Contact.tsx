@@ -32,7 +32,7 @@ export function Contact() {
             </li>
             <li>
               <strong>Horario</strong>
-              <span>Lun a Sáb · 8:00 a 13:00 y 16:00 a 20:00</span>
+              <span>Lun a Dom · 07:30 a 22:00</span>
             </li>
           </ul>
         </div>

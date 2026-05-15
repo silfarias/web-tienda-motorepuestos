@@ -11,6 +11,7 @@ export const HOME_SECTIONS = {
   inicio: 'inicio',
   categorias: 'categorias',
   nosotros: 'nosotros',
+  locales: 'locales',
   contacto: 'contacto',
 } as const
 
