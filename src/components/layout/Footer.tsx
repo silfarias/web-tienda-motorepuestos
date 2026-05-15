@@ -1,5 +1,6 @@
-import { STORE } from '../data/store'
-
+import { Link } from 'react-router-dom'
+import { STORE } from '../../config/store'
+import { homeSectionPath, PATHS } from '../../config/paths'
 export function Footer() {
   const year = new Date().getFullYear()
 
@@ -15,10 +16,12 @@ export function Footer() {
           </p>
         </div>
         <nav className="footer__nav" aria-label="Pie de página">
-          <a href="#inicio">Inicio</a>
-          <a href="#catalogo">Catálogo</a>
-          <a href="#nosotros">Nosotros</a>
-          <a href="#contacto">Contacto</a>
+          <Link to={PATHS.home}>Inicio</Link>
+          <Link to={PATHS.catalog}>Catálogo</Link>
+          <Link to={PATHS.cart}>Carrito</Link>
+          <Link to={PATHS.orders}>Mis pedidos</Link>
+          <Link to={homeSectionPath('nosotros')}>Nosotros</Link>
+          <Link to={homeSectionPath('contacto')}>Contacto</Link>
         </nav>
         <p className="footer__copy">
           © {year} {STORE.name}. Landing de demostración.

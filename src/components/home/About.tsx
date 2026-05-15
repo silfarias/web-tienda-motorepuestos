@@ -1,4 +1,4 @@
-import { STORE } from '../data/store'
+import { STORE } from '../../config/store'
 
 const POINTS = [
   {

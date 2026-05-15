@@ -1,4 +1,7 @@
-import { STORE, whatsappGeneralLink } from '../data/store'
+import { PATHS } from '../../config/paths'
+import { STORE } from '../../config/store'
+import { whatsappGeneralLink } from '../../lib/whatsapp'
+import { Button } from '../ui/Button'
 
 export function Hero() {
   return (
@@ -21,17 +24,19 @@ export function Hero() {
           precios mayoristas y minoristas.
         </p>
         <div className="hero__actions">
-          <a href="#catalogo" className="btn btn--primary btn--lg">
+          <Button as="link" to={PATHS.catalog} variant="primary" size="lg">
             Explorar catálogo
-          </a>
-          <a
+          </Button>
+          <Button
+            as="a"
+            variant="outline"
+            size="lg"
             href={whatsappGeneralLink()}
-            className="btn btn--outline btn--lg"
             target="_blank"
             rel="noopener noreferrer"
           >
             Consultar por WhatsApp
-          </a>
+          </Button>
         </div>
         <ul className="hero__stats">
           <li>

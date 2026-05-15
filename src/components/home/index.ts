@@ -1,0 +1,5 @@
+export { About } from './About'
+export { Categories } from './Categories'
+export { Contact } from './Contact'
+export { Hero } from './Hero'
+export { PromoStrip } from './PromoStrip'
